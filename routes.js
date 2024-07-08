@@ -1,8 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/songs', (req, res) => {
-    res.send('List of songs');
+router.post('/register', async (req, res) => {
+    // Registration logic
+});
+
+router.post('/login', async (req, res) => {
+    // Login logic
 });
 
 module.exports = router;
